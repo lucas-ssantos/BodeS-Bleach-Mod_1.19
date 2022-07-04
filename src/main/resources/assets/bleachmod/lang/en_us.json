@@ -1,3 +1,5 @@
 {
-  "item.bleachmod.reiryoku" : "Reiryoku"
+  "item.bleachmod.reiryoku" : "Reiryoku",
+
+  "itemGroup.bleachmod.bleach_mod": "Bode's Bleach Tab"
 }

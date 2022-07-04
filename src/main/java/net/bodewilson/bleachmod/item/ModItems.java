@@ -9,8 +9,8 @@ import net.minecraft.util.registry.Registry;
 
 public class ModItems
 {
-    public static final Item REIATSU = registerItem("reiryoku", new Item(
-            new FabricItemSettings().group(ItemGroup.FOOD)));
+    public static final Item REIRYOKU = registerItem("reiryoku", new Item(
+            new FabricItemSettings().group(ModItemGroup.BLEACHMOD)));
 
 
     private static Item registerItem(String name, Item item)
