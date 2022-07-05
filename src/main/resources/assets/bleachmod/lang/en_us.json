@@ -1,5 +1,8 @@
 {
   "item.bleachmod.reiryoku" : "Reiryoku",
 
+  "block.bleachmod.example_block": "Example Block",
+  "block.bleachmod.reiryoku_trap": "Reiryoku Trap",
+
   "itemGroup.bleachmod.bleach_mod": "Bode's Bleach Tab"
 }

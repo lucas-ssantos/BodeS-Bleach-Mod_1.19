@@ -1,5 +1,6 @@
 package net.bodewilson.bleachmod;
 
+import net.bodewilson.bleachmod.block.ModBlocks;
 import net.bodewilson.bleachmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -21,5 +22,6 @@ public class BleachMod implements ModInitializer {
 		//LOGGER.info("Hello Fabric world!");
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
