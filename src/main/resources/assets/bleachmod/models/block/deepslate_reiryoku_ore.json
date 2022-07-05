@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "bleachmod:block/example_block"
+    "all": "bleachmod:block/deepslate_reiryoku_ore"
   }
 }
