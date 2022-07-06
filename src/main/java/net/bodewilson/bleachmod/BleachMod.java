@@ -2,6 +2,7 @@ package net.bodewilson.bleachmod;
 
 import net.bodewilson.bleachmod.block.ModBlocks;
 import net.bodewilson.bleachmod.item.ModItems;
+import net.bodewilson.bleachmod.util.ModLootTableModfiers;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -23,5 +24,6 @@ public class BleachMod implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModLootTableModfiers.modifyLootTables();
 	}
 }
